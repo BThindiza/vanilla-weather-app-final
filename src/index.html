@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Project</title>
-    <link rel="stylesheet" href="src/style.css"/>
-
+    <title>Weather app</title>
+<link rel="stylesheet" href="src/style.css"/>
 </head>
 <body>
-    <h1>Hello there
+    <div class="container">
+        <div class="weather-app">
+            <form class="searc-form" id="search-form">
+                <div class="row">
+                    <div class="col-6">
+                        <input type="search" placeholder="Search City" autofocus="on" autocomplete="off" class="form-control" id="city-input"/>
+                    </div>
+                    <div class="col-3">
+                        <input type="submit" value="search" class="form-control btn btn-primary shadow"/>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn btn-success w-100" id="current-location">
+                            current
+                        </button>
+                    </div>
+                </div>
+            </form>
 
-
-    </h1>
+        </div>
+    </div>
 </body>
+<script src="src/index.js"></script>
 </html>
