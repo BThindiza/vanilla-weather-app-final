@@ -1,0 +1,20 @@
+.weather-app{
+    max-width: 630px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.details{
+    font-size: 13px;
+    line-height: 1.5;
+    padding-top: 30px;
+    margin: 0;
+}
+.footer {
+    font-size: 15px;
+    text-align: center;
+    color: lightslategray;
+    cursor: pointer;
+    margin-top: -20px;
+}
