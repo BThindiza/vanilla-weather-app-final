@@ -1,3 +1,13 @@
+function refreshWeather(){
+    let temperatureElement = document.querySelector("#temperature");
+    let temperature = response.data.temperature.current;
+    let cityElement = document.querySelector("#city");
+    let descriptionElement = document.querySelector("#description");
+    let humidityElement = document.querySelector("#humidity");
+    let windElement = document.querySelector("#wind");
+    let timeElement = document.querySelector("#time");
+}
+
 function formatDate(timestamp){
     let date = newDate(timestamp)
     let hours =date.getHours();
