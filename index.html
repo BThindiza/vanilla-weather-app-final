@@ -11,8 +11,8 @@
 <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 </head>
 <body>
-    <div class="container">
         <div class="weather-app">
+            <header></header>
             <form class="search-form" id="search-form">
                 <div class="row">
                     <div class="col-6">
@@ -21,33 +21,33 @@
                     <div class="col-3">
                         <input type="submit" value="search" class="form-control btn btn-primary shadow"/>
                     </div>
-                    <div class="col-3">
-                        <button class="btn btn-success w-100" id="current-location">
-                            current
-                        </button>
-                    </div>
                 </div>
             </form>
+        </header>
+        <main>
+            <div class="weather-data">
+                <div></div>
 <h1 class="weather-city" id="city"></h1>
-<h2 id="date"></h2>
-<h3 id="description"></h3>
-
-       </div>
-        <div class="col-6">
-            <div class="details">
-                Humidity:<span id="humidity"></span>
-    <br>
-                Wind:
-                <span id="wind"></span>
-                </div>
-                <div class="weather-app-temperature-container">
-                    <div id="icon"></div>
-                <div class="weather-app-temperature" id="temperature"></div>
+<p class="weather-details">
+    <span id="date"></span>
+<span id="description"></span>
+</div>
+      
+Humidity:<span id="humidity"></span>
+<br>
+Wind:
+<span id="wind"></span>
+</div>
+</p>
+</div>
+          <div class="weather-app-temperature-container">
+          <div id="icon"></div>
+         <div class="weather-app-temperature" id="temperature"></div>
 <div class="weather-app-unit">°C</div>
                 </div>
                 </div>
-            
-
+                <div class="weather-forecast" id="temperature"></div>
+            </main>
 <div class="footer">
     Coded by <a href="https://www.linkedin.com/in/boitumelo-thindiza-222049159/">Boitumelo Thindiza</a>
     Open Source <a href="https://github.com/BThindiza/vanilla-weather-app-final.git">GitHub</a>
